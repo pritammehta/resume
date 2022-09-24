@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Digigarage</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main stylesheet -->
+    <link href="assets/css/hallooou.css" rel="stylesheet">
+
+
+
+
+
+    <link href="assets/css/plugins/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/plugins/jquery.mb.YTPlayer.min.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<style>
+p.person {
+    text-align: right;
+    color: lightseagreen !important;
+    font-weight: 700;
+    font-size: 1.5em;}
+
+p{margin: 0 0 35px !important;
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+}
+
+.footer-distributed{margin-top:50px;}
+
+
+ section#testimonials {
+    overflow: visible;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  section#footer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+  }
+  section#footer a, section#footer a:visited {
+    color: #4cb6c1;
+  }
+  section#footer a:hover, section#footer a:active {
+    color: #a55959;
+  }
+
+  h1 {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2.3em;
+    text-align: center;
+    color: #a55959;
+    transition: font-size .5s ease;
+  }
+
+  .col {
+    width: 100%;
+    border-bottom: 1px solid #a55959;
+    overflow: visible;
+    position: relative;
+    padding: 3em;
+  }
+
+  .col:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-size: 5em;
+    /*color: rgba(72, 106, 140, .4);*/
+    color: rgba(76, 182, 193, .3);
+    z-index: -100;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+
+  /*p:nth-last-child(2):after {
+    content: "\f10e";
+    font-family: FontAwesome;
+    font-size: 5em;
+    color: rgba(72, 106, 140, .4);
+    font-size: 5em;
+    z-index: -100;
+    position: absolute;
+    bottom: 120px;
+    right: 30px;
+  }*/
+
+  p, li {
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+  p.person {
+    text-align: right;
+    color: #4cb6c1;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  p.person:before {
+    content: "\f007";
+    font-family: FontAwesome;
+    color: #2d2d2d;
+    margin-right: .6em;
+  }
+
+  @media (min-width: 960px) {
+    
+     h1 {
+       font-size: 3em;
+     }
+    
+  }
+
+  @media (max-width: 450px) {
+
+    h1 {
+      font-size: 1.8em;
+      transition: font-size .5s ease;
+    }
+
+  }
+
+
+
+
+
+.main{
+  margin-bottom: 50px;
+}
+.card{
+  width: 525px;
+  height: 320px;
+ background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,245,248,1) 35%, rgba(236,236,237,1) 100%);
+  box-shadow: 0 13px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 30px;
+  transition: background-color .5s, box-shadow .5s, margin-left .5s;
+}
+.card:hover{
+  margin-left: 8%;
+  background-color: #ffff;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
+  transition: background-color .5s, box-shadow .5s, margin-left .5s;
+}
+.post-image{
+  width: 200px;
+  height: 220px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 10px 10px 10px;
+  float: left;
+}
+.post-content{
+  width: 55%;
+  height:320px;
+  float: left;
+  margin-left: 5px;
+  overflow: hidden;
+}
+a:link{
+  
+
+  text-decoration: none;
+}
+.post-header{
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 15px;
+  color: #3B3C3F;
+  margin-left: 10px;
+  text-align: center;
+}
+.post-text{
+  font-size: 15px;
+  padding-left: 20px;
+  color: #000 !important;
+  font-family: 'Roboto', sans-serif;  
+}
+.author{
+  widt: 100%;
+  height: 60px;
+  background-color: #F2F5F8;
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  
+}
+.author-content{
+  width: 60%;
+  height: 60px;
+  margin-left: 10px;
+  
+  float: left;
+}
+.author-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.author-name{
+  font-size: 20px;
+  color: #3B3C3F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.date{
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -15px;
+  padding-left: 10px;
+}
+
+ .imgg img{filter:gray;
+ -webkit-filter:grayscale(1);
+ width:500px;height:300px;
+
+ 
+ }
+ 
+ .imgg img:hover{filter:none;
+ -webkit-filter:grayscale(0);}
+
+
+
+
+.services-item:before {
+    background-color: #f36767!important;content:"";}
+	
+	
+	
+.services-item:hover {background:#f36767!important;}
+
+.fa-cogs{color:#f36767 !important;}
+
+.prd{color:#fff;}
+
+
+.footer-distributed{
+	background: #1171ba;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+.item recent-project{width:400 !important;height:300px !important;}
+
+
+.wrapper {
+  width: 300px;
+  height: 500px;
+  background: white;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0;
+  transform: scale(0.95);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.wrapper:hover {
+  transform: scale(1);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+.wrapper .contain {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .contain .top {
+  height: 80%;
+  width: 100%;
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/49/80/6f/49806f3f1c7483093855ebca1b8ae2c4.jpg) no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.wrapper .contain .bottom {
+  width: 200%;
+  height: 20%;
+  transition: transform 0.5s;
+}
+.wrapper .contain.bottom.clicked {
+  transform: translateX(-50%);
+}
+.wrapper .contain .bottom h1 {
+  margin: 0;
+  padding: 0;
+}
+.wrapper .contain .bottom p {
+  margin: 0;
+  padding: 0;
+}
+.wrapper .contain .bottom .left {
+  height: 100%;
+  width: 50%;
+  background: #f4f4f4;
+  position: relative;
+  float: left;
+}
+.wrapper .contain .bottom .left .details {
+  padding: 20px;
+  float: left;
+  width: calc(70% - 40px);
+}
+.wrapper .contain .bottom .left .buy {
+  float: right;
+  width: calc(30% - 2px);
+  height: 100%;
+  background: #f1f1f1;
+  transition: background 0.5s;
+  border-left: solid thin rgba(0, 0, 0, 0.1);
+}
+.wrapper .contain .bottom .left .buy i {
+  font-size: 30px;
+  padding: 30px;
+  color: #254053;
+  transition: transform 0.5s;
+}
+.wrapper .contain .bottom .left .buy:hover {
+  background: #a6cdde;
+}
+.wrapper .contain .bottom .left .buy:hover i {
+  transform: translateY(5px);
+  color: #00394b;
+}
+.wrapper .contain .bottom .right {
+  width: 50%;
+  background: #a6cdde;
+  color: white;
+  float: right;
+  height: 200%;
+  overflow: hidden;
+}
+.wrapper .contain .bottom .right .details {
+  padding: 20px;
+  float: right;
+  width: calc(70% - 40px);
+}
+.wrapper .contain .bottom .right .done {
+  width: calc(30% - 2px);
+  float: left;
+  transition: transform 0.5s;
+  border-right: solid thin rgba(255, 255, 255, 0.3);
+  height: 50%;
+}
+.wrapper .contain .bottom .right .done i {
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+}
+.wrapper .contain .bottom .right .remove {
+  width: calc(30% - 1px);
+  clear: both;
+  border-right: solid thin rgba(255, 255, 255, 0.3);
+  height: 50%;
+  background: #bc3b59;
+  transition: transform 0.5s, background 0.5s;
+}
+.wrapper .contain .bottom .right .remove:hover {
+  background: #9b2847;
+}
+.wrapper .contain .bottom .right .remove:hover i {
+  transform: translateY(5px);
+}
+.wrapper .contain .bottom .right .remove i {
+  transition: transform 0.5s;
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+}
+.wrapper .contain .bottom .right:hover .remove, .wrapper .container .bottom .right:hover .done {
+  transform: translateY(-100%);
+}
+.wrapper .inside {
+  z-index: 9;
+  background: rgba(17,113,186,.5);
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -70px;
+  right: -70px;
+  border-radius: 0px 0px 200px 200px;
+  transition: all 0.5s, border-radius 2s, top 1s;
+  overflow: hidden;
+}
+.wrapper .inside .icon {
+  position: absolute;
+  right: 85px;
+  top: 85px;
+  color: white;
+  opacity: 1;
+}
+.wrapper .inside:hover {
+  width: 100%;
+  right: 0;
+  top: 0;
+  border-radius: 0;
+  height: 80%;
+}
+.wrapper .inside:hover .icon {
+  opacity: 0;
+  right: 15px;
+  top: 15px;
+}
+.wrapper .inside:hover .contents {
+  opacity: 1;
+  transform: scale(1);
+  transform: translateY(0);
+}
+.wrapper .inside .contents {
+  padding: 5%;
+  opacity: 0;
+  transform: scale(0.5);
+  transform: translateY(-200%);
+  transition: opacity 0.2s, transform 0.8s;
+}
+.wrapper .inside .contents table {
+  text-align: left;
+  width: 100%;
+}
+.wrapper .inside .contents h1, .wrapper .inside .contents p, .wrapper .inside .contents table {
+  color: white;
+}
+.wrapper .inside .contents p {
+  font-size: 13px;
+}
+
+
+</style>
+
+</head>
+
+<body id="home">
+<script src='../../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><script src="../../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<!--<script>(function(v,d,o,ai){ai=d.createElement("script");ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, "//a.vdo.ai/core/w3layouts_V2/vdo.ai.js?vdo=34");</script>-->
+<div id="codefund"><!-- fallback content --></div>
+<script src="https://ethicalads.io/?ref=codefund" async="async"></script>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-149859901-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149859901-1');
+</script>
+
+<script>
+     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+     ga('create', 'UA-149859901-1', 'demo.w3layouts.com');
+     ga('require', 'eventTracker');
+     ga('require', 'outboundLinkTracker');
+     ga('require', 'urlChangeTracker');
+     ga('send', 'pageview');
+   </script>
+<script async src='../../../../../../js/autotrack.js'></script>
+
+
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-custom navbar-fixed-top" style="margin-top:-43px;"role="navigation">
+                <div class="container">
+                    <div class="navbar-header pull-left">
+                        <a class="navbar-brand page-scroll" href="#page-top">
+    <span class="brand-logo"><img src="assets/images/logo2.png" width="60" height="60" onerror="this.src='assets/images/logos.png'; this.onerror=null;"  class="img-responsive"></span>
+                        </a>
+                    </div>
+                    <div class="main-nav pull-right">
+                        <div class="button_container toggle">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </div>
+                    </div>
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                            <ul>
+							
+                            	 <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="testimonial.html">Testimonial</a></li>
+                                <li><a href="newsroom.html">Newsroom</a></li>
+								       <li><a href="blogs.html">Blogs</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!-- /.container -->
+            </nav>
+
+
+
+
+<div class="banner">
+<img src="assets/images/abt.jpg">
+</div>
+
+
+
+           
+            <!-- Our team Section -->
+           
+                <div class="container">
+                    <div class="row text-center" style="margin-top:70px;">
+                        <div class="col-md-12">
+                            <h2>Testimonial</h2>
+                            
+                        </div><!-- /.col-md-12 -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+
+
+
+
+
+
+<section id="testimonials">
+<center><img src="assets/images/t1.png" class="circle"></center>
+    <div class="col">
+	
+        <p>As a Blogger user, then a MT user, then a B2 user, and now a WP user - I must say I'm impressed. I wasn't quite sure what to expect upon switching over, but given the death of b2, I decided to take the leap and try its official successor. Installation/upgrading was relatively easy, and I've already found so much more to like over b2:</p>
+        
+
+    <p class="person">Paul Jackson</p>
+  </div>
+<center><img src="assets/images/t2.jpg" class="circle"></center>
+  <div class="col">
+        <p>I have been a loyal MovableType user for a couple of years now. I went to upgrade perl on my system (apparently 5.8.2 and MT don't like each other) and MT puked on me. I am a UNIX sysadmin by trade, so I am not ignorant of the ins and outs of upgrading software on a webserver. In spite of performing every test, upgrade, and change I could, including mod_perl and all of the modules required by MT, in the end, MT was still broken.</p>
+
+    
+    <p class="person">Aaron Mildenstein</p>
+  </div>
+  
+  <center><img src="assets/images/t3.jpeg" class="circle"></center>
+  <div class="col">
+    <p>I had been an avid b2 user for the last 6 months or so, but then decided to take advantage of WordPress’s features, commitment to extra development and stable codebase. So far, so good.</p>
+
+
+
+    <p class="person">BC</p>
+  </div>
+  
+  <center><img src="assets/images/t4.jpeg" class="circle"></center>
+  <div class="col">
+    <p>I was using b2, the development of which seemed to have somewhat stagnated, and I was searching for a way to put into it a few of the features floating around that other blog solutions had. That's how I found WordPress. What better solution than to use this elegant system as a replacement/upgrade for b2.</p>
+
+    <p class="person">Michael</p>
+  </div>
+  
+  
+  <center><img src="assets/images/t5.jpg" class="circle"></center>
+  <div class="col">
+    <p>Two antlers, WAY UP! Being one of the largest denizens of the coniferous forests of northeastern British Columbia, I have very particular needs. After my initial Blogger experience (can I say that word here?) I was left wanting more, but alas, I suffered from newbie shock when I moved on to other tools. Grey Matter beckoned, and I got it installed, but it was simply not for me. One evening, after a long day of tromping through the underbrush, I was googling for a new blogging tool, and tripped and fell over something called "WordPress." Well, I downloaded it, scoffed at the claim of a five-minute install, and tried it out. Five minutes or so later, I was typing my first test post...then I saw that version 0.72 had just been released. I quickly upgraded, and haven't looked back since. Ten out of ten moose recommend WordPress as THE publishing suite of the 21st Century.</p>
+
+    <p class="person">Craig Hartel</p>
+  </div>
+  
+   <center><img src="assets/images/t8.jpg" class="circle"></center>
+  <div class="col">
+    <p>I had used b2 for over a year and was surprised when I saw it was not being developed further. When Word Press came along, I installed, imported my old b2 entries and have been blogging happily since then.</p>
+
+    
+
+    <p class="person">Southern Gal</p>
+  </div>
+   <center><img src="assets/images/t6.png" class="circle"></center>
+  <div class="col">
+    <p>WordPress works great and is easy to use and setup on Mac OS X! Overall a great bit software if you are looking to setup and maintain your own blog.</p>
+
+    <p class="person">R. J. Aubern</p>
+  </div>
+   <center><img src="assets/images/t7.jpg" class="circle"></center>
+  <div class="col">
+    <p>I’ve tried a few other bloggers, and I thought that Greymatter was as good as it got. Then I found WordPress. Easy to install, easy to set up, easy to use, and more features than I will ever need. Just fantastic! I'm ashamed how little of it's capability I'm using!</p>
+
+
+
+    <p class="person">Dave Haynes</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </div></div></div>
+
+
+ 
+
+
+            
+
+<footer class="footer-distributed">
+<div class="container">
+			<div class="footer-left">
+
+				<h3>Company<span>logo</span></h3>
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					
+					<a href="#">About us</a>
+				
+					<a href="#">Gallery</a>
+				
+					<a href="#">Product</a>
+					
+					<a href="#">Testimonial</a>
+					
+					<a href="#">Contact us</a>
+				</p>
+
+				<p class="footer-company-name "style="color:#fff;">Digigarage © 2022</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1.555.555.5555</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p ><a href="" style="color:#fff !important;">example@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span style="font-size:23px;white-space:nowrap;font-weight:500;" >About the company</span>
+					<p style="font-weight:500;">Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+</div>
+		</footer>
+
+            
+           
+
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins/jquery.parallax-1.1.3.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/plugins/jquery.countTo.js"></script>
+    <script src="assets/js/plugins/jquery.inview.min.js"></script>
+    <script src="assets/js/plugins/pace.min.js"></script>
+    <script src="assets/js/plugins/jquery.easing.min.js"></script>
+    <script src="assets/js/plugins/jquery.validate.min.js"></script>
+    <script src="assets/js/plugins/additional-methods.min.js"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoVKfEihX__NdMwdDysA6Vve6PE9Ierj4"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/hallooou.js"></script>
+	
+	
+	
+	
+	
+	<script>
+	$('.buy').click(function(){
+  $('.bottom').addClass("clicked");
+});
+
+$('.remove').click(function(){
+  $('.bottom').removeClass("clicked");
+});
+	</script>
+</body>
+
+
+</html>
